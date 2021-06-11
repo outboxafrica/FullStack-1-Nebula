@@ -5,16 +5,11 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  scroll-behavior: smooth;
 }
 .container{
   background: #005eb8;
   position: fixed;
   width: 100%;
-}
-
-.logo1 {
-    height: fit-content;
 }
 .container nav{
   position: relative;
@@ -30,7 +25,7 @@ nav .content{
   align-items: center;
 }
 nav .content .links{
-  margin-left: 80px; 
+  margin-left: 80px;
   display: flex;
 }
 .content .logo a{
@@ -207,6 +202,9 @@ nav .content .links{
     padding: 8px 18px;
     cursor: pointer;
   }
+  .content .links li a.desktop-link{
+    display: none;
+  }
 
   /* dropdown responsive code start */
   .content .links ul,
@@ -252,90 +250,44 @@ nav .content .links{
 }
 }
 
-/* container 1 styling */
-.max-width {
-    max-width: 1300px;
+/* about us ---- styling */
+
+.container1 {
+  max-width: 1300px;
     padding: 0 80px;
     margin: auto;
-    background: url("../assets/back2.jpg") no-repeat center;
+    background: url("../assets/back3.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 75vh;
-    
-    /* min-height: 500px; */
-
+    height: 30vh;
 }
-
-/* .about {
-    background: url("../assets/back1.jpg") no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    min-height: 500px;
-} */
-
 
 .text {
-  padding-top: 13em;
-  text-align: center;
-  font-family: 'Ubuntu', sans-serif;
-  color: white;
-  font-weight: 600;
-}
-
-.title {
-  font-weight: 800;
-  font: 10em;
-
-}
-
-.title1 {
-  padding-top: 1em;
-  line-height: 1.7;
-}
-
-.text2 {
-  background-color: #005eb8;
-  /* margin-top: 1em; */
-  padding-top: 40px;
-  padding-bottom: 10px;
-  color: #ffff
-}
-
-.text5 {
-  border-style: solid;
+  padding-top: 4.1em;
   color: #ffff;
-  border-radius: 2px;
   text-align: center;
-  width: 40%;
-}
-
-.row {
-  display: flex;
-  width: 90%;
-  margin: 0 auto;
-  position: relative;
-  height: 70px;
-}
-.column {
-  flex: 50%;
-}
-
-h2 .text3 {
-  font: 20px;
-}
-.help1 {
-  padding-top: 10px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 800;
-  font-size: 30px;
+  font-size: 3em;
+}
+
+.text1 {
+  padding-top: 10.5em;
   color: gray;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.6;
 }
 
-/* section - responsivenes */
-@media screen {
-  
+.text3 {
+  padding-top: 1.5em;
+  color: gray;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
 }
-
 

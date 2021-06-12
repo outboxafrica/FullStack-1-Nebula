@@ -334,8 +334,19 @@ h2 .text3 {
 }
 
 /* section - responsivenes */
-@media screen {
-  
+@media screen and (max-width: 400px){
+  /* .max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+  } */
+
+  .text {
+    font-size: 15px;
+    
+  }
+
+
 }
 
 

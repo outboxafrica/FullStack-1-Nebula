@@ -290,4 +290,24 @@ nav .content .links{
   font-size: 18px;
   line-height: 1.6;
 }
+ 
+/* video ---styling */
+.container2{
+  margin-top: 15.5em;
+}
 
+.what-we-do{
+  color: gray;
+  font-family: 'Ubuntu', sans-serif;
+  font: 800;
+  font-size: 40px;
+  text-align: center;
+}
+video {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 20px;
+
+}

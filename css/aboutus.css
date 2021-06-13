@@ -253,13 +253,13 @@ nav .content .links{
 /* about us ---- styling */
 
 .container1 {
-  max-width: 1300px;
+  max-width: 100%;
     padding: 0 80px;
     margin: auto;
     background: url("../assets/back3.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 30vh;
+    height: auto;
 }
 
 .text {
@@ -270,9 +270,13 @@ nav .content .links{
   font-weight: 800;
   font-size: 3em;
 }
-
+.support-text{
+  width: 80%;
+  margin: 30px auto;
+  
+}
 .text1 {
-  padding-top: 10.5em;
+  /* padding-top: 10.5em; */
   color: gray;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -294,6 +298,8 @@ nav .content .links{
 /* video ---styling */
 .container2{
   margin-top: 15.5em;
+  width: 80%;
+  margin: 20px auto;
 }
 
 .what-we-do{
@@ -309,5 +315,38 @@ video {
   margin-right: auto;
   display: block;
   border-radius: 20px;
+
+}
+@media(max-width:900px){
+  .container1 {
+    max-width: 100%;
+      /* padding: 0 80px; */
+      margin: auto;
+      background: url("../assets/back3.jpg") no-repeat center;
+      background-size: cover;
+      background-attachment: fixed;
+      height: auto;
+  }
+  /* .text{
+    text-align: justify;
+    width: 100%;
+  } */
+  .support-text{
+    width: 80%;
+    margin: 10px auto;
+    text-align: justify;
+    
+  }
+  .text1,.text3{
+    text-align: justify;
+  }
+  video {
+    /* margin-top: 10px; */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+  
+  }
 
 }

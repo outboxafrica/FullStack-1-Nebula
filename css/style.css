@@ -7,7 +7,7 @@
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
-.container{
+.container{ 
   background: #005eb8;
   position: fixed;
   width: 100%;
@@ -299,7 +299,8 @@ nav .content .links{
   /* margin-top: 1em; */
   padding-top: 40px;
   padding-bottom: 10px;
-  color: #ffff
+  color: #ffff;
+  height: auto;
 }
 
 .text5 {
@@ -308,6 +309,7 @@ nav .content .links{
   border-radius: 2px;
   text-align: center;
   width: 40%;
+  margin: 10px;
 }
 
 .row {
@@ -315,7 +317,7 @@ nav .content .links{
   width: 90%;
   margin: 0 auto;
   position: relative;
-  height: 70px;
+  height: auto;
 }
 .column {
   flex: 50%;
@@ -334,19 +336,59 @@ h2 .text3 {
 }
 
 /* section - responsivenes */
-@media screen and (max-width: 400px){
-  /* .max-width {
-    max-width: 1300px;
-    padding: 0 80px;
-    margin: auto;
-  } */
+@media(max-width: 900px){
+
+  .max-width {
+    margin-top: 10px;
+    height: auto;
+    padding-bottom: 20px;
+  }
 
   .text {
     font-size: 15px;
+    text-align: justify;
+    width: 100%;
     
   }
-
-
+  .title{
+    text-align: center;
+  }
+.text2{
+  background-color: #005eb8;
+  text-align: center;
+  /* margin-top: 1em; */
+  /* padding-top: 40px;
+  padding-bottom: 10px; */
+  color: #ffff;
+  height: 50%;
+  position: relative;
+  display: block;
+}
+.row {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  height: auto;
+  flex-direction: column;
+}
+.text5 {
+  border-style: solid;
+  color: #ffff;
+  border-radius: 2px;
+  text-align: center;
+  margin: 10px auto;
+  /* width: 40%; */
+}
+.help1 {
+  padding-top: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  color: gray;
+  text-align: center;
+  margin-bottom: 25px;
+}
 }
 
 
